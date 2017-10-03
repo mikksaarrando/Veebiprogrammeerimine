@@ -88,7 +88,7 @@
 	
 	<h2>Natuke aastaarvudest</h2>
 	<form method="POST">
-		<label>Teie sünniaasta: </label>
+		<label>Sisesta oma sünniaasta: </label>
 		<input type="number" name="birthYear" min="1900" max="2017" value="
 		<?php echo $myBirthYear; ?>">
 		<input type="submit" name"submitBirthYear" value="Kinnita">
